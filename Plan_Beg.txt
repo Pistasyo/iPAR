@@ -1,0 +1,89 @@
+ USE [iPAR]
+GO
+
+/****** Object:  Table [dbo].[DailyReport_014C_013_Beg]    Script Date: 08/10/2025 6:31:05 am ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[DailyReport_014C_013_Beg](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Line Name Master] [nvarchar](100) NOT NULL,
+	[Beginning Backlog 013] [float] NULL,
+	[Beginning Backlog 014C] [float] NULL,
+	[2025-10-01 013] [float] NULL,
+	[2025-10-01 014C] [float] NULL,
+	[2025-10-02 013] [float] NULL,
+	[2025-10-02 014C] [float] NULL,
+	[2025-10-03 013] [float] NULL,
+	[2025-10-03 014C] [float] NULL,
+	[2025-10-04 013] [float] NULL,
+	[2025-10-04 014C] [float] NULL,
+	[2025-10-05 013] [float] NULL,
+	[2025-10-05 014C] [float] NULL,
+	[2025-10-06 013] [float] NULL,
+	[2025-10-06 014C] [float] NULL,
+	[2025-10-07 013] [float] NULL,
+	[2025-10-07 014C] [float] NULL,
+	[2025-10-08 013] [float] NULL,
+	[2025-10-08 014C] [float] NULL,
+	[2025-10-09 013] [float] NULL,
+	[2025-10-09 014C] [float] NULL,
+	[2025-10-10 013] [float] NULL,
+	[2025-10-10 014C] [float] NULL,
+	[2025-10-11 013] [float] NULL,
+	[2025-10-11 014C] [float] NULL,
+	[2025-10-12 013] [float] NULL,
+	[2025-10-12 014C] [float] NULL,
+	[2025-10-13 013] [float] NULL,
+	[2025-10-13 014C] [float] NULL,
+	[2025-10-14 013] [float] NULL,
+	[2025-10-14 014C] [float] NULL,
+	[2025-10-15 013] [float] NULL,
+	[2025-10-15 014C] [float] NULL,
+	[2025-10-16 013] [float] NULL,
+	[2025-10-16 014C] [float] NULL,
+	[2025-10-17 013] [float] NULL,
+	[2025-10-17 014C] [float] NULL,
+	[2025-10-18 013] [float] NULL,
+	[2025-10-18 014C] [float] NULL,
+	[2025-10-19 013] [float] NULL,
+	[2025-10-19 014C] [float] NULL,
+	[2025-10-20 013] [float] NULL,
+	[2025-10-20 014C] [float] NULL,
+	[2025-10-21 013] [float] NULL,
+	[2025-10-21 014C] [float] NULL,
+	[2025-10-22 013] [float] NULL,
+	[2025-10-22 014C] [float] NULL,
+	[2025-10-23 013] [float] NULL,
+	[2025-10-23 014C] [float] NULL,
+	[2025-10-24 013] [float] NULL,
+	[2025-10-24 014C] [float] NULL,
+	[2025-10-25 013] [float] NULL,
+	[2025-10-25 014C] [float] NULL,
+	[2025-10-26 013] [float] NULL,
+	[2025-10-26 014C] [float] NULL,
+	[2025-10-27 013] [float] NULL,
+	[2025-10-27 014C] [float] NULL,
+	[2025-10-28 013] [float] NULL,
+	[2025-10-28 014C] [float] NULL,
+	[2025-10-29 013] [float] NULL,
+	[2025-10-29 014C] [float] NULL,
+	[2025-10-30 013] [float] NULL,
+	[2025-10-30 014C] [float] NULL,
+	[2025-10-31 013] [float] NULL,
+	[2025-10-31 014C] [float] NULL,
+	[Month] [int] NULL,
+	[Year] [int] NULL,
+	[SavedAt] [datetime] NULL,
+	[SavedBy] [nvarchar](100) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
